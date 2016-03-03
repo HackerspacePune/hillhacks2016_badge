@@ -1,0 +1,9 @@
+(module "badge_hole_6mmx3mm(+2mmCu)" (layer F.Cu) (tedit 56D86F32)
+  (fp_text reference U1 (at 0 4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value badge_hole (at 0 -4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole oval (at 0 0) (size 10 6) (drill oval 8 4) (layers *.Cu *.Mask F.SilkS))
+)
