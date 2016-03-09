@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tavish/Dropbox/projects/Hillhacks2016_badge/badge1.sch)
-    (date "Thu Mar  3 22:48:22 2016")
+    (date "Wed Mar  9 18:28:47 2016")
     (tool "Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -154,7 +154,13 @@
       (footprint "badge_mod:badge_hole_6mmx3mm(+2mmCu)")
       (libsource (lib badge1-cache) (part badge_hole2))
       (sheetpath (names /) (tstamps /))
-      (tstamp 56D88276)))
+      (tstamp 56D88276))
+    (comp (ref U7)
+      (value custom_logo)
+      (footprint badge_mod:tesseract)
+      (libsource (lib badge1-cache) (part custom_logo))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 56E01DAC)))
   (libparts
     (libpart (lib atmel) (part ATTINY25-S)
       (aliases
@@ -324,12 +330,12 @@
         (field (name Reference) U)
         (field (name Value) proto_area))))
   (libraries
-    (library (logical atmel)
-      (uri /usr/share/kicad/library/atmel.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical atmel)
+      (uri /usr/share/kicad/library/atmel.lib))
     (library (logical badge1-cache)
       (uri /home/tavish/Dropbox/projects/Hillhacks2016_badge/badge1-cache.lib)))
   (nets
