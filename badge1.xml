@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tavish/Dropbox/projects/Hillhacks2016_badge/badge1.sch</source>
+    <date>Fri Mar 11 08:34:04 2016</date>
+    <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>badge1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="attiny85">
+      <value>ATTINY85-S</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="digikey">ATTINY85-20SURCT-ND</field>
+      </fields>
+      <libsource lib="atmel" part="ATTINY85-S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D1C74B</tstamp>
+    </comp>
+    <comp ref="ISP1">
+      <value>AVR-ISP-6</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="atmel" part="AVR-ISP-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D1C86D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>68</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="digikey">311-68GRCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D1CB0C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>68</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D1CB7A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>3.6V BZX79C3V6</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="digikey">BZX79C3V6</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D1CDA5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D1D27B</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>USB_A</value>
+      <footprint>connectors:usb-PCB</footprint>
+      <libsource lib="conn" part="USB_A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D208F3</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D323C6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D323DB</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D32069</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Hillhacks_logo</value>
+      <footprint>hh_logo:hh_logo</footprint>
+      <libsource lib="badge1-cache" part="Hillhacks_logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D47A38</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>custom_logo</value>
+      <footprint>badge_mod:Symbol_OSHW-Logo_CopperBottom</footprint>
+      <libsource lib="badge1-cache" part="custom_logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D47DBB</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>Connect:CR2032H</footprint>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D486BE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>proto_area</value>
+      <footprint>badge_mod:proto_area</footprint>
+      <libsource lib="badge1-cache" part="proto_area"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D499FD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>3.6V BZX79C3V6</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10</footprint>
+      <fields>
+        <field name="digikey">BZX79C3V6</field>
+      </fields>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D72FC9</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D73861</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7396E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.5k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7518A</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7F683</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP1700-3302E/TO</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="badge1-cache" part="MCP1700-3302E/TO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D86D05</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>badge_hole2</value>
+      <footprint>badge_mod:badge_hole_6mmx3mm(+2mmCu)</footprint>
+      <libsource lib="badge1-cache" part="badge_hole2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D88206</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>badge_hole2</value>
+      <footprint>badge_mod:badge_hole_6mmx3mm(+2mmCu)</footprint>
+      <libsource lib="badge1-cache" part="badge_hole2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D88276</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>custom_logo</value>
+      <footprint>badge_mod:tesseract</footprint>
+      <libsource lib="badge1-cache" part="custom_logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E01DAC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATTINY25-S">
+      <aliases>
+        <alias>ATTINY45-S</alias>
+        <alias>ATTINY85-S</alias>
+      </aliases>
+      <description>SO8 Wide, 2k Flash, 128B SRAM, 128B EEPROM, Debug Wire</description>
+      <docs>http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY25-S</field>
+        <field name="Footprint">SO8-200</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5(~RESET~/dW/ADC0/PCINT5)" type="BiDi"/>
+        <pin num="2" name="PB3(XTAL1/CLKI/OC1B/ADC3/PCINT3)" type="BiDi"/>
+        <pin num="3" name="PB4(XTAL2/CLKO/OC1B/ADC2/PCINT4)" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)" type="BiDi"/>
+        <pin num="6" name="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" type="BiDi"/>
+        <pin num="7" name="PB2(SCK/USCK/SCL/T0/INT0/ADC1/PCINT2)" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="AVR-ISP-6">
+      <description>Standard IDC6 Male Connector, ATMEL ISP 6pin</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">AVR-ISP-6</field>
+        <field name="Footprint">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="badge1-cache" part="Hillhacks_logo">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Hillhacks_logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="badge1-cache" part="MCP1700-3302E/TO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700-3302E/TO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="Vin" type="input"/>
+        <pin num="3" name="Vout" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_A">
+      <description>A connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="badge1-cache" part="badge_hole2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">badge_hole2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="any" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="badge1-cache" part="custom_logo">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">custom_logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="badge1-cache" part="proto_area">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">proto_area</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="badge1-cache">
+      <uri>/home/tavish/Dropbox/projects/Hillhacks2016_badge/badge1-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/RST">
+      <node ref="ISP1" pin="5"/>
+      <node ref="attiny85" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D6-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="3" name="/D0">
+      <node ref="P3" pin="1"/>
+      <node ref="ISP1" pin="4"/>
+      <node ref="attiny85" pin="5"/>
+    </net>
+    <net code="4" name="/USB-D+">
+      <node ref="D3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="5" name="VCC">
+      <node ref="U1" pin="3"/>
+      <node ref="ISP1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="attiny85" pin="8"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P3" pin="4"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="6" name="/VBAT">
+      <node ref="BT1" pin="1"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="7" name="/V_sec_bat">
+      <node ref="U1" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="D2" pin="2"/>
+      <node ref="attiny85" pin="4"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P2" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P2" pin="5"/>
+      <node ref="ISP1" pin="6"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="9" name="/D1">
+      <node ref="ISP1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="attiny85" pin="6"/>
+    </net>
+    <net code="10" name="/VBUS">
+      <node ref="P2" pin="1"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="11" name="/D2">
+      <node ref="P3" pin="3"/>
+      <node ref="attiny85" pin="7"/>
+      <node ref="ISP1" pin="3"/>
+    </net>
+    <net code="12" name="/USB-D-">
+      <node ref="R1" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="13" name="/D3">
+      <node ref="D6" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="attiny85" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="14" name="/D4">
+      <node ref="SW1" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="attiny85" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>

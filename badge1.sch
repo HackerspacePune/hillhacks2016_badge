@@ -672,5 +672,16 @@ Wire Wire Line
 	7150 3700 7150 3300
 Connection ~ 7150 3700
 Text Label 4500 4650 0    60   ~ 0
-RST
+D0
+$Comp
+L custom_logo U8
+U 1 1 570A1F46
+P 7400 5200
+F 0 "U8" H 6950 5400 60  0000 C CNN
+F 1 "custom_logo" H 7300 5000 60  0000 C CNN
+F 2 "badge_mod:tesseract" H 7400 5200 60  0000 C CNN
+F 3 "" H 7400 5200 60  0000 C CNN
+	1    7400 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
