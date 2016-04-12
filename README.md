@@ -31,7 +31,7 @@ Reset pin is enabled in this, this is so that you can use an ISP programmer with
 the bootloader, but for example digispark board comes with Reset pin disabled,
 which means you can use it as an I/O pin.
 
-Please see [Schematic.pdf][Schematic.pdf] for schematic. Pin PB0(D0 for arduino) is
+Please see [Schematic.pdf](Schematic.pdf) for schematic. Pin PB0(D0 for arduino) is
 connected to push button. PB1(D1) is connected to LED.
 
 Writing programs
