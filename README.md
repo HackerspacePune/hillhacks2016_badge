@@ -37,5 +37,5 @@ to fit the PCB.
 Example code
 ============
 
-Please see /examples/ for Mitch's example sketch.
+Please see [/examples/HillhacksBadge.ino](/examples/HillhacksBadge.ino) for Mitch's example sketch.
 
