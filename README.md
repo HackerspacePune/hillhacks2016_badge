@@ -19,29 +19,23 @@ Design uses a footprint(pcb_USB-A) from Inversepath's Usbarmory kicad design htt
 Firmware
 ========
 
-The badge comes with [micronuleus](https://github.com/micronucleus/micronucleus) 
-bootloader(and required fuses programmed. 
-(Warning: incorrect fuses can make attiny chip no longer programmable with 
-non HVSP ISP programmers like Atmel mkII, or arduino as ISP).
+Bootloader: Please follow [these instructions](https://learn.adafruit.com/introducing-trinket/repairing-bootloader) for
+installing Adafruit Trinket bootloader onto your badge. This allows you to upload 'sletches' to the badge without an external programmer.
+
+Arduino IDE: Set up arduino IDE to work with your badge from [here](https://learn.adafruit.com/introducing-trinket/setting-up-with-arduino-ide).
 
 Hardware
 ========
 
-Reset pin is enabled in this, this is so that you can use an ISP programmer without 
-the bootloader, but for example digispark board comes with Reset pin disabled,
-which means you can use it as an I/O pin.
-
 Please see [Schematic.pdf](Schematic.pdf) for schematic. Pin PB0(D0 for arduino) is
 connected to push button. PB1(D1) is connected to LED.
 
-Writing programs
-================
+NOTE: The button footprint is rotated by 90 degrees by mistake, so you need to bend the button
+leads so they can be fit the PCB roated. Also, the battery holder pins need to be bent out a bit
+to fit the PCB.
 
-Another option(more flexible but probably more setup steps) is [https://github.com/sudar/Arduino-Makefile](https://github.com/sudar/Arduino-Makefile), 
-you will need to set up `micronuclues` commandline to upload the generated hex file.
+Example code
+============
 
-To use arduino IDE to program this, please follow [digispark wiki](https://digistump.com/wiki/digispark/tutorials/connecting)
+Please see /examples/ for Mitch's example sketch.
 
-TODO
-====
-Upload digispark bootloader(uses older micronucleus version) to repo for digispark/arduinoIDE compatibility.
