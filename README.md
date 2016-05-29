@@ -31,7 +31,8 @@ Please see [Schematic.pdf](Schematic.pdf) for schematic. Pin PB0(D0 for arduino)
 connected to push button. PB1(D1) is connected to LED.
 
 NOTE: The button footprint is rotated by 90 degrees by mistake, so you need to bend the button
-leads so they can be fit the PCB roated. Also, the battery holder pins need to be bent out a bit
+leads so they can be fit the PCB roated. 
+NOTE2: the battery holder pins need to be bent out a bit
 to fit the PCB.
 
 Example code
